@@ -9,6 +9,13 @@
 
 
 /* Common Shared Style */
+
+.common-title{
+    font-size: 2.8rem;
+    color: #131313;
+    font-weight: 700;
+}
+
 .btn-primary{
     background-color: orange;
     color: white;
@@ -40,12 +47,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-nav h3{
-    font-size: 2.8rem;
-    color: #131313;
-    font-weight: 700;
 }
 
 nav > ul{
