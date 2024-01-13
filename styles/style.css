@@ -169,6 +169,8 @@ main{
 
 .features-title{
     margin-bottom: 24px;
+    border-left: 5px orange solid;
+    padding-left: 20px;
 }
 
 .features-description{
@@ -295,16 +297,9 @@ main{
         flex-direction: column;
         max-width: 150px;
         gap: 40px;
-        /* align-items: center; */
         margin: 0 auto;
-        border: #FF900E solid;
 
     }
-
-    .sponsors-section{
-        border: mediumpurple dotted;
-    }
-    
 }
 
 /* Responsive for medium device */
@@ -332,5 +327,13 @@ main{
         padding-left: 20px;
         padding-right: 20px;
         gap: 20px;
+    }
+
+    .sponsors-image-container{
+        flex-direction: column;
+        max-width: 150px;
+        gap: 40px;
+        margin: 0 auto;
+
     }
 }
