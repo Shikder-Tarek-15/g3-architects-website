@@ -164,6 +164,7 @@ main{
 
 .features-text{
     max-width: 586px;
+    width: 100%;
 }
 
 .features-title{
@@ -186,14 +187,66 @@ main{
     max-width: 708px;
 }
 
-.experience-container{
+/* .experience-container{
     background-color: orange;
-    display: inline-block;
+    display: block;
+} */
+
+
+/* Card Style */
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+
+.facts-title{
+    margin-top: 130px;
+    margin-bottom: 24px;
 }
 
 
+.card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 45px 36px 60px 36px;
+    text-align: center;
+    margin-bottom: 100px;
+}
 
+.card-stats{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
 
+.card-title{
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Sponsors Section */
+
+.sponsors-section{
+    text-align: center;
+}
+
+.sponsors-title{
+    margin-bottom: 24px;
+}
+
+.sponsors-description{
+    margin-bottom: 50px;
+}
+
+.sponsors-image-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 
 
@@ -222,6 +275,35 @@ main{
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    .features-container{
+        flex-direction: column;
+    }
+
+    .facts-section{
+        margin-left: 20px;
+    }
+
+    .card-container{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 20px;
+    }
+
+    .sponsors-image-container{
+        flex-direction: column;
+        max-width: 150px;
+        gap: 40px;
+        /* align-items: center; */
+        margin: 0 auto;
+        border: #FF900E solid;
+
+    }
+
+    .sponsors-section{
+        border: mediumpurple dotted;
+    }
     
 }
 
@@ -238,5 +320,17 @@ main{
     .team-container{
         flex-direction: column-reverse;
         gap: 10px;
+    }
+
+    .facts-section{
+        margin-left: 20px;
+    }
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 0.5fr);
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 20px;
     }
 }
