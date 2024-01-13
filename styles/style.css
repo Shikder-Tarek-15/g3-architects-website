@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Common Shared Style */
+.btn-primary{
+    background-color: orange;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 25px;
+    border: none;
+
+}
+
+
+
+
+/* Header section */
+
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3{
+    font-size: 2.8rem;
+    color: #131313;
+    font-weight: 700;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav a{
+    text-decoration: none;
+    color: #131313;
+}
+
+.login{
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Banner section */
+
+.banner{
+    text-align: center;
+}
+
+.banner-content{
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.banner-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.banner-img{
+    margin-top: 30px;
+}
