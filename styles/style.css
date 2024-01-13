@@ -20,6 +20,12 @@
 
 }
 
+.common-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 
 
 
@@ -84,12 +90,7 @@ nav a{
     margin-bottom: 30px;
 }
 
-.banner-description{
-    color: #727272;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 30px;
-}
+
 
 .banner-img{
     margin-top: 30px;
@@ -97,6 +98,45 @@ nav a{
 .banner-img img{
     width: 100%;
 }
+
+/* Main Section */
+
+.team-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.team-text{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.team-text h3{
+    font-size: 2.8rem;
+    color: #727272;
+    font-weight: 700;
+}
+
+.span-our{
+    color: #131313;
+}
+
+.span-features{
+    color: #FF900E;
+}
+
+
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+
+
+
+
 
 
 /* Responsive for small device */
