@@ -101,6 +101,11 @@ nav a{
 
 /* Main Section */
 
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+
 .team-container{
     display: flex;
     align-items: center;
@@ -116,8 +121,12 @@ nav a{
     font-size: 2.8rem;
     color: #727272;
     font-weight: 700;
+    margin-bottom: 24px;
 }
 
+.team-text p{
+    margin-bottom: 30px;
+}
 .span-our{
     color: #131313;
 }
@@ -149,6 +158,21 @@ nav a{
         flex-direction: column;
         gap: 10px;
     }
+
+    .team-container{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .team-img{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .team-text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     
 }
 
@@ -160,6 +184,10 @@ nav a{
     }
     nav{
         flex-direction: column;
+        gap: 10px;
+    }
+    .team-container{
+        flex-direction: column-reverse;
         gap: 10px;
     }
 }
