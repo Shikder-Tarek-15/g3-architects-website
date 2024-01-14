@@ -185,14 +185,34 @@ main{
     margin-bottom: 20px;
 }
 
-.features-experience img{
-    max-width: 708px;
+.features-images img{
+    max-height: 90%;
+    margin-left: 70px;
+
 }
 
-/* .experience-container{
-    background-color: orange;
-    display: block;
-} */
+.experience-container{
+    border-radius: 8px;
+    background: #FF900E;
+    width: 342px;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    bottom: 100px;
+}
+
+.experience-container .experience-year{
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.experience-container .experience-text{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 
 
 /* Card Style */
@@ -282,6 +302,23 @@ main{
         flex-direction: column;
     }
 
+    .features-text{
+        padding: 10px;
+    }
+
+    .features-images img{
+        max-width: 300px;
+    
+    }
+
+    .experience-container{
+        max-width: 300px;
+    }
+
+    .experience-container .experience-year{
+        font-size: 3rem;
+    }
+
     .facts-section{
         margin-left: 20px;
     }
@@ -315,6 +352,10 @@ main{
     .team-container{
         flex-direction: column-reverse;
         gap: 10px;
+    }
+
+    .features-container{
+        flex-direction: column;
     }
 
     .facts-section{
